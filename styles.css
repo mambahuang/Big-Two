@@ -1,0 +1,40 @@
+#game-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #player-hand,
+  #table {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #hand-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 80px;
+    height: 120px;
+    border: 1px solid #000;
+    margin: 5px;
+    text-align: center;
+    line-height: 120px;
+    font-size: 20px;
+  }
+  
+  #play-button {
+    margin-top: 10px;
+  }
+  
+  #played-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #played-cards .card {
+    background-color: lightgray;
+  }
+  
